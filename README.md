@@ -18,11 +18,10 @@ Experiment with Selenium to create a BDD test solution that will automate the se
 * Using common language C#
 
 **Setup:**
-1. Open Visual Studio
-2. Ensure all plugins are loaded correctly
-3. Build project using (toolbar menu)
-4. Tests toolbar should be open on the right hand side
-5. Select Run All tests
-6. Setup is a example test and does not perform any verifications
-7. All tests (apart from negative scenarios) should run and pass (assuming there are no changes to the available houses)
-	
+* Open Visual Studio
+* Ensure all plugins are loaded correctly
+* Build project using (toolbar menu)
+* Tests toolbar should be open on the right hand side
+* Select Run All tests
+* Setup is a example test and does not perform any verifications
+* All tests (apart from negative scenarios) should run and pass (assuming there are no changes to the available houses)
