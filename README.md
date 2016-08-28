@@ -24,10 +24,12 @@ Experiment with Selenium to create a BDD test solution that will automate the se
 * Open Visual Studio
 * Ensure all plugins are loaded correctly: Select File Open > Project.
 * In the solution explorer, right click on the project and select "Manage Nuget packages"
+    https://drive.google.com/open?id=0BwRZifnFSiMOcmVETFc1dVdVYTA
 * Ensure the "Installed" tab is selected, then verify all Nugets in Tools are visible.
 * Build project using (control + shift + B)
 * Tests toolbar should be open on the left hand side
 * Select Run All tests
+    https://drive.google.com/open?id=0BwRZifnFSiMOU3Y2VE5VWEdaams
 * Setup is a example test and does not perform any verifications
 * All tests (apart from negative scenarios) should run and pass (assuming there are no changes to the available houses)
 
