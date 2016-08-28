@@ -17,11 +17,22 @@ Experiment with Selenium to create a BDD test solution that will automate the se
 * Integration with NUnit and third party libraries
 * Using common language C#
 
-**Setup:**
+**Architecture Overview**
+![Image of sample selenium framework](https://docs.google.com/drawings/d/1w0gb6SetfRhTtDKlYOMzC_JozLKDzNnxxvqOandfyNY/pub?w=960&h=720)
+
+**Setup/Instructions for new starters:**:
 * Open Visual Studio
-* Ensure all plugins are loaded correctly
-* Build project using (toolbar menu)
-* Tests toolbar should be open on the right hand side
+* Ensure all plugins are loaded correctly: Select File Open > Project.
+* In the solution explorer, right click on the project and select "Manage Nuget packages"
+* Ensure the "Installed" tab is selected, then verify all Nugets in Tools are visible.
+* Build project using (control + shift + B)
+* Tests toolbar should be open on the left hand side
 * Select Run All tests
 * Setup is a example test and does not perform any verifications
 * All tests (apart from negative scenarios) should run and pass (assuming there are no changes to the available houses)
+
+**Out of scope:**:
+* Unit and integration testing
+
+**General Notes**
+Spec says, user can search for houses **under** "300,000", opposed to houses **less than or equal** to 300,000. The website only offers a max option of 300,000. Meaning it is not possible to enter less than 300,000 without also including 300,000. This may be a potential issue and should be queried with the subject matter expert.
