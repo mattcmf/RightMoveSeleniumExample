@@ -33,7 +33,7 @@ Experiment with Selenium to create a BDD test solution that will automate the se
 * Setup is a example test and does not perform any verifications
 * All tests (apart from negative scenarios) should run and pass (assuming there are no changes to the available houses)
 
-**Out of scope:**:
+**Out of scope:**
 * Unit and integration testing
 
 **General Notes**
