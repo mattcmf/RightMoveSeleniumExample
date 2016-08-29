@@ -20,7 +20,7 @@ Experiment with Selenium to create a BDD test solution that will automate the se
 **Architecture Overview**
 ![Image of sample selenium framework](https://docs.google.com/drawings/d/1w0gb6SetfRhTtDKlYOMzC_JozLKDzNnxxvqOandfyNY/pub?w=960&h=720)
 
-**Setup/Instructions for new starters:**:
+**Setup/Instructions for new starters:**
 * Open Visual Studio
 * Ensure all plugins are loaded correctly: Select File Open > Project.
 * In the solution explorer, right click on the project and select "Manage Nuget packages"
@@ -37,15 +37,17 @@ Experiment with Selenium to create a BDD test solution that will automate the se
 * Unit and integration testing
 
 **General Notes**
-Spec says, user can search for houses **under** "300,000", opposed to houses **less than or equal** to 300,000. The website only offers a max option of 300,000. Meaning it is not possible to enter less than 300,000 without also including 300,000. This may be a potential issue and should be queried with the subject matter expert.
+
+Spec reads, user can search for houses **under** "300,000", opposed to houses **less than or equal** to 300,000. The website only offers a max option of 300,000. Meaning it is not possible to enter less than 300,000 without also including 300,000. This may be a potential issue and should be queried with the subject matter expert.
 
 **Expansion: Reporting**
+
 This framework has been written to support the Allure plugin: http://allure.qatools.ru
 Using Allure, it is possible to generate high level test summary reports using graphs etc. See following link for demo solution: http://ci.qatools.ru/job/allure-core_master-deploy/lastSuccessfulBuild/Allure_report/
 
-Graphs:
+**Allure Graphs:**
 ![Image of Allure Reports](http://allure.qatools.ru/img/graph.png)
 
 
-Test Stats:
+**Allure Test Stats:**
 ![Image of Allure Stats](http://allure.qatools.ru/img/overview.png)
